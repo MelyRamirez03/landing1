@@ -1,0 +1,63 @@
+//------------------------------------
+//        PATRON DE COLORES
+//------------------------------------
+
+$principal:#990000;
+$secondary:#000000;
+
+
+
+.bg-dark {
+    background-color: $secondary !important;
+}
+
+.card:hover {
+	box-shadow: 0 0 10px #0c0c0c3b;
+}
+
+/*--------------------------------
+SOBREESCRIBIENDO LOS ESTILOS DE BOOTSTRAP
+--------------------------------*/
+.bg-primary{
+	background-color: $principal !important;
+}
+
+.text-primary{
+	color: $principal !important;
+}
+
+.btn-primary{
+	background-color: $secondary !important;
+	border-color: darken($secondary,20%);
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+	background-color: darken($secondary,20%) !important;
+}
+
+.btn-primary:active{
+	background-color: darken($secondary,20%) !important;
+}
+
+.btn-primary:focus{
+	box-shadow: 0 0 0 0.2rem rgba($secondary,.5) !important;
+}
+
+/*--------------------------------
+ESTILOS DEL DISEÑO
+--------------------------------*/
+
+html{
+	font-size: 13px;
+}
+
+@media (min-width: 768px){
+	html{
+		font-size: 16px;
+	}
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.bg-dark {
+  background-color: #5ab1da !important; }
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #0c0c0c3b;
+          box-shadow: 0 0 10px #0c0c0c3b; }
+
+/*--------------------------------
+SOBREESCRIBIENDO LOS ESTILOS DE BOOTSTRAP
+--------------------------------*/
+.bg-primary {
+  background-color: #5ab1da !important; }
+
+.text-primary {
+  color: #5ab1da !important; }
+
+.text-secondary{
+  color: #ffffff !important;}
+
+.btn-primary {
+  background-color: #5ab1da !important;
+  border-color: #5ab1da; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: rgb(255, 255, 255) !important;
+  color: #5ab1da; }
+
+.btn-primary:active {
+  background-color: rgb(255, 255, 255) !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5) !important; }
+
+#form{
+  margin-left: 600px !important;
+}
+
+/*--------------------------------
+ESTILOS DEL DISEÑO
+--------------------------------*/
+html {
+  font-size: 13px; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } 
+  }
+body {
+  font-family: 'Montserrat', sans-serif; }
+/*# sourceMappingURL=estilos.css.map */
