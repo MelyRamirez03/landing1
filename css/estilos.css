@@ -18,9 +18,6 @@ SOBREESCRIBIENDO LOS ESTILOS DE BOOTSTRAP
 .text-secondary{
   color: #ffffff !important;}
 
-.btn-primary {
-  background-color: #9C9B9B !important;
-  border-color: #9C9B9B; }
 
 .btn-primary:hover,
 .btn-primary:focus {
